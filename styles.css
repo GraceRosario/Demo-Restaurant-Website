@@ -166,3 +166,9 @@ a .div {
     font-weight: 700;
     color: #103732;
 }
+
+.categories {
+    width: 80vw;
+    height: 40vh;
+    object-fit: cover;
+}
