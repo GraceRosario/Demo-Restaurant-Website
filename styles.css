@@ -1,7 +1,7 @@
 html, body {
     padding: 0;
     margin: 0;
-    background-color: #fadadd;
+    /* background-color: #fadadd; */
     width: 100%;
     box-sizing: border-box;
 }
@@ -19,18 +19,25 @@ header {
     width: auto;
     display: flex;
     align-items: center;
+    background: linear-gradient(135deg, #35c8b4, #edf7be, #a4cf4a);
 }
+
+/* #c2f2e4 */
+/* #35c8b4 */
+/* #edf7be */
+/* #a4cf4a */
 
 nav {
     width: 100%;
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    gap: 15vw;
+    gap: 3vw;
 }
 
 .menu {
-    color: #5C2E00;
+    /* color: #96db05; */
+    color: #718f30;
     font-size: 3rem;
 }
 
@@ -62,12 +69,20 @@ nav {
     height: 100%;
 }
 
-#logo-img {
-    height: 45vh; 
-    width: auto;
-    object-fit: cover;
-    border-radius: 0;
-    margin-left: 0;
+@import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.restaurant-name {
+    /* color: #02c7ac; */
+    color: #317067;
+    font-family: "Intel One Mono", monospace;
+    font-display: swap;
+    font-size: 4rem;
+}
+
+.logo {
+    display: flex;
+    align-self: left;
 }
 
 a {
