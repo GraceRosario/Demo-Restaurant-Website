@@ -154,8 +154,14 @@ a .div {
     position: absolute;
     z-index: 1;
     top: 60vh;
-    margin-left: 30vw;
+    /* margin-left: 30vw; */
     border-radius: 1rem;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #hero-text {
@@ -171,4 +177,29 @@ a .div {
     width: 80vw;
     height: 40vh;
     object-fit: cover;
+    object-position: middle;
+    border: 2px solid #1b8677;
 }
+
+#categories {
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    margin-bottom: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categories-div {
+    background: linear-gradient(45deg, #35c8b4c7, #96db05d4);
+    width: 40vw;
+    position: absolute;
+    z-index: 1;
+    top: 90vh;
+    border-radius: 1rem;
+}
+
