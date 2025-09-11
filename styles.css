@@ -38,6 +38,7 @@ nav {
 .menu {
     /* color: #96db05; */
     color: #718f30;
+    /* color: #317067; */
     font-size: 3rem;
 }
 
@@ -195,11 +196,29 @@ a .div {
 }
 
 .categories-div {
-    background: linear-gradient(45deg, #35c8b4c7, #96db05d4);
-    width: 40vw;
-    position: absolute;
-    z-index: 1;
-    top: 90vh;
+    background: linear-gradient(45deg, #40fae1c7, #acfa09d4);
+    width: 20vw;
     border-radius: 1rem;
+    padding: 2rem;
+}
+
+.categories-text {
+    font-family: "Intel One Mono", monospace;
+    font-display: swap;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+    color: #103732;
+}
+
+.veg-div {
+    position: absolute;
+    top: 150vh;
+    left: 15vw;
+}
+.non-veg-div {
+    position: absolute;
+    top: 195vh;
+    left: 15vw;
 }
 
