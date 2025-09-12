@@ -96,7 +96,7 @@ a {
 
 .dropdown-text {
     font-family: "cormorant garamond", "playfair display", "libre baskerville", sans-serif;
-    color: #5C2E00;
+    color: #103732;
     padding: 0.5rem;
     z-index: 1;
 }
@@ -114,7 +114,8 @@ a .div {
 #dropdown-section {
     height: auto;
     width: 20vw;
-    background-color: #a5e0fe;
+    background: linear-gradient(135deg, #35c8b4, #edf7be, #a4cf4a);
+    /* background: linear-gradient(135deg, #a4cf4a, #edf7be, #35c8b4); */
     font-size: 1.5rem;
     margin-left: 2vw;
     margin-top: -2vh;
@@ -135,7 +136,7 @@ a .div {
     border: none;
     height: 2px;
     /* background-color: #abdaf2f7; */
-    background-color: #FF6E91;
+    background-color: #103732;
     margin-bottom: 1rem;
     padding-left: 0;
 } 
