@@ -130,6 +130,7 @@ a .div {
     top: 60vh;
     /* margin-left: 30vw; */
     border-radius: 1rem;
+    padding: 2rem;
 }
 
 #hero {
@@ -263,6 +264,9 @@ footer {
         left: 15vw;
     }
 
+    #hero-div {
+        padding: 1rem;
+    }
 
     .categories-div {
         width: 35vw;
@@ -338,6 +342,9 @@ footer {
         left: 15vw;
     }
 
+    #hero-div {
+        padding: 1rem;
+    }
 
     .categories-div {
         width: 35vw;
@@ -420,6 +427,9 @@ footer {
         left: 15vw;
     }
 
+    #hero-div {
+        padding: 1rem;
+    }
 
     .categories-div {
         width: 35vw;
@@ -499,6 +509,9 @@ footer {
         left: 15vw;
     }
 
+    #hero-div {
+        padding: 1rem;
+    }
 
     .categories-div {
         width: 35vw;
