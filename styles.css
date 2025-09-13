@@ -185,6 +185,15 @@ a .div {
     color: #103732;
 }
 
+.subcategories-div {
+    font-family: "Intel One Mono", monospace;
+    font-display: swap;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+    color: #103732;
+}
+
 .veg-div {
     position: absolute;
     top: 150vh;
