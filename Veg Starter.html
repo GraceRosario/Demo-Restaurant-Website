@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Discover stylish and comfortable kids clothing at Nikki Popo. From ethnic wear to trendy outfits, dress your little ones with love and care.">
+    <meta name="author" content="Grace Rosario">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product_pages.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Chef's Special</title>
+</head>
+<body>
+        <header>
+            <nav>
+             <!-- drop down menu -->
+            <div class="dropdown">
+            <section id="menu" onclick="toggleMenu()"><i class="fa-solid fa-bars menu"></i>
+            </section>
+            <div id="dropdown-section" class="dropdown-content">
+                <a href="index.html" class="dropdown-text">
+                    <div class="menu-text">Home</div>
+                </a>
+
+                <hr class="menu-hr">
+                <a href="About Us.html" class="dropdown-text">
+                    <div class="menu-text">About Us</div>
+                </a>
+                
+                <hr class="menu-hr">
+                <a href="Contact.html" class="dropdown-text">
+                    <div class="menu-text">Contact</div>
+                </a>
+                
+                <hr class="menu-hr">
+                <a href="Veg.html" class="dropdown-text active">
+                    <div class="menu-text">Veg</div>
+                </a>
+
+                <hr class="menu-hr">
+                <a href="Non-Veg.html" class="dropdown-text">
+                    <div class="menu-text">Non-Veg</div>
+                </a>
+            </div>
+            </div>
+        <h1 class="restaurant-name"><i class="fa-solid fa-utensils logo"></i> Spice & Sizzle</h1>
+        </nav>
+        </header>
+        <main>
+            <p class="main-text">Starters:-</p>
+        <div id="product-collection">
+
+            <div class="products" onclick="window.location.href='Paneer Corn Tikka.html'">
+                <div class="img-container"><img src="Paneer Corn Tikka 2 (1).webp" height="600px" width="600px" alt="Paneer Corn Tikka" loading="lazy" decoding="async"></div>  
+                    <p class="name">Paneer Corn Tikka</p>
+                    <p class="price">₹130</p>
+                <input type="button" class="buy-btn" value="DM to Buy" onclick="window.location.href='Paneer Corn Tikka.html'">
+                </div>
+
+            <div class="products" onclick="window.location.href='Veg Spring Roll.html'">
+                <div class="img-container"><img src="Veg Spring Roll.webp" height="600px" width="600px" alt="Veg Spring Roll" decoding="async"></div>
+                    <p class="name">Veg Spring Roll</p>
+                    <p class="price">₹150</p>
+                <input type="button" class="buy-btn" value="DM to Buy" onclick="window.location.href='Paneer Corn Tikka.html'">
+                </div>
+
+            <div class="products" onclick="window.location.href='Paneer Chilli.html'">
+                <div class="img-container"><img src="Paneer Chilli 2.webp" height="600px" width="600px" alt="Paneer Chilli" loading="lazy" decoding="async"></div>
+                    <p class="name">Paneer Chilli</p>
+                    <p class="price">₹180</p>
+                <input type="button" class="buy-btn" value="DM to Buy" onclick="window.location.href='Paneer Chilli.html'">
+                </div>
+
+        </div>
+        </main>
+        <footer>
+        <p class="footer-text">© 2025 Spice & Sizzle | <a class="footer-link" href="https://grace-rosario.netlify.app">Designed by Grace Rosario</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
