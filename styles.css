@@ -250,13 +250,6 @@ footer {
     color: #103732;
 }
 
-.sub-categories-text {
-    color: #103732;
-    font-family: "Intel One Mono", monospace;
-    font-display: swap;
-    font-size: 3rem;
-}
-
 .sub-categories-collection {
     display: flex;
     gap: 5vh;
@@ -278,10 +271,10 @@ footer {
     position: absolute;
     left: 15vw;
     background: linear-gradient(45deg, #40fae1c7, #acfa09d4);
-    width: 30vw;
+    /* width: 30vw; */
+    width: auto;
     border-radius: 1rem;
     padding: 2rem;
-    
 }
 
 .veg-special {
@@ -374,6 +367,39 @@ footer {
         width: 100vw;
     }
 
+    .sub-categories {
+        height: 40vh;
+    }
+
+    .veg-special, .veg-starter, .veg-main, .dessert, .beverage{
+        width: auto;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    .subcategories-text {
+        font-size: 1.3rem;
+    }
+
+    .veg-special {
+        top: 65vh;
+    }
+
+    .veg-starter {
+        top: 110vh;
+    }
+
+    .veg-main {
+       top: 155vh; 
+    }
+
+    .dessert {
+        top: 200vh;
+    }
+
+    .beverage {
+        top: 245vh;
+    }
 
     .footer-text {
         font-size: 1rem;
@@ -452,6 +478,36 @@ footer {
         width: 100vw;
     }
 
+    .veg-special, .veg-starter, .veg-main, .dessert, .beverage{
+        width: auto;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    .subcategories-text {
+        font-size: 2rem;
+    }
+
+    .veg-special {
+        top: 70vh;
+    }
+
+    .veg-starter {
+        top: 125vh;
+    }
+
+    .veg-main {
+       top: 180vh; 
+    }
+
+    .dessert {
+        top: 235vh;
+    }
+
+    .beverage {
+        top: 290vh;
+    }
+
 
     .footer-text {
         font-size: 1rem;
@@ -515,7 +571,6 @@ footer {
         width: 35vw;
         padding: 1rem;
     }
-
     
     .about-us {
         padding: 4rem;
@@ -536,6 +591,36 @@ footer {
 
     #dropdown-section {
         margin-top: 0.2vh;
+    }
+
+    .veg-special, .veg-starter, .veg-main, .dessert, .beverage{
+        width: auto;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    .subcategories-text {
+        font-size: 2rem;
+    }
+
+    .veg-special {
+        top: 70vh;
+    }
+
+    .veg-starter {
+        top: 125vh;
+    }
+
+    .veg-main {
+       top: 180vh; 
+    }
+
+    .dessert {
+        top: 235vh;
+    }
+
+    .beverage {
+        top: 290vh;
     }
 
 
@@ -619,6 +704,37 @@ footer {
         margin-bottom: 0.8rem;
     }
 
+    .veg-special, .veg-starter, .veg-main, .dessert, .beverage{
+        width: auto;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    .subcategories-text {
+        font-size: 2rem;
+    }
+
+    .veg-special {
+        top: 80vh;
+    }
+
+    .veg-starter {
+        top: 135vh;
+    }
+
+    .veg-main {
+       top: 190vh; 
+    }
+
+    .dessert {
+        top: 245vh;
+    }
+
+    .beverage {
+        top: 300vh;
+    }
+
+
     .footer-text {
         font-size: 2rem;
         padding: 3.5rem;
@@ -645,6 +761,36 @@ footer {
     .item-text {
         font-size: 3.5rem;
     }
+
+    .veg-special, .veg-starter, .veg-main, .dessert, .beverage{
+        width: auto;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    .subcategories-text {
+        font-size: 3rem;
+    }
+
+    /* .veg-special {
+        top: 70vh;
+    }
+
+    .veg-starter {
+        top: 125vh;
+    }
+
+    .veg-main {
+       top: 180vh; 
+    }
+
+    .dessert {
+        top: 235vh;
+    }
+
+    .beverage {
+        top: 290vh;
+    } */
 
     .footer-text {
         font-size: 3rem;
