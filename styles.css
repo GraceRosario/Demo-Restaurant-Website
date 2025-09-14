@@ -80,7 +80,8 @@ a .div {
 .dropdown {
     height: auto;
     max-height: 20vh;
-    width: 25%;
+    /* width: 25%; */
+    width: 20%;
 }
 
 #dropdown-section {
