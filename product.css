@@ -148,8 +148,10 @@ select:hover, option:hover {
     background-color: #103732;
     font-size: 3rem;
     padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     margin: 2rem;
-    border-radius: 3rem;
+    border-radius: 2rem;
 }
 
 footer {
@@ -213,8 +215,8 @@ footer {
     }
 
     .buttons {
-        gap: 60vw;
-        top: 65vh;
+        gap: 70vw;
+        top: 55vh;
     }
 
     .right, .left {
