@@ -314,6 +314,24 @@ footer {
         font-size: 1.5rem;
     }
 
+    #dropdown-section {
+        height: auto;
+        width: 50vw;
+    }
+
+    .dropdown-text {
+        font-size: 1rem;
+    }
+
+    .menu {
+        font-size: 1.5rem;
+    }
+
+    #dropdown-section {
+        margin-top: 0.2vh;
+    }
+
+
     #hero-img {
         height: 50vh;
     }
@@ -344,23 +362,6 @@ footer {
     .categories-div {
         width: 35vw;
         padding: 1rem;
-    }
-
-    #dropdown-section {
-        height: auto;
-        width: 50vw;
-    }
-
-    .dropdown-text {
-        font-size: 1rem;
-    }
-
-    .menu {
-        font-size: 1.5rem;
-    }
-
-    #dropdown-section {
-        margin-top: 0.2vh;
     }
 
     main {
@@ -429,6 +430,10 @@ footer {
         font-size: 2.5rem;
     }
 
+    #dropdown-section {
+        margin-top: 0.2vh;
+    }
+
     #hero-text, .categories-text {
         font-size: 2rem;
     }
@@ -468,10 +473,6 @@ footer {
 
     .menu {
         font-size: 2rem;
-    }
-
-    #dropdown-section {
-        margin-top: 0.2vh;
     }
 
     main {
@@ -532,6 +533,23 @@ footer {
         gap: 5vw;
     }
 
+     #dropdown-section {
+        height: auto;
+        width: 50vw;
+    }
+
+    .dropdown-text {
+        font-size: 1rem;
+    }
+
+    .menu {
+        font-size: 2rem;
+    }
+
+    #dropdown-section {
+        margin-top: 0.2vh;
+    }
+
     .about-us, .item-text {
         font-size: 2rem;
     }
@@ -576,22 +594,6 @@ footer {
         padding: 4rem;
     }
 
-    #dropdown-section {
-        height: auto;
-        width: 50vw;
-    }
-
-    .dropdown-text {
-        font-size: 1rem;
-    }
-
-    .menu {
-        font-size: 2rem;
-    }
-
-    #dropdown-section {
-        margin-top: 0.2vh;
-    }
 
     .veg-special, .veg-starter, .veg-main, .dessert, .beverage{
         width: auto;
