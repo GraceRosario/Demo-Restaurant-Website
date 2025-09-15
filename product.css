@@ -204,14 +204,25 @@ main {
 }
 
 
-.name, .price {
+.name, .price, select, label {
     color: #103732;
     font-size: 2.5rem;
     font-family: "Intel One Mono", monospace;
     font-display: swap;
 }
 
-.name {
+select:hover, option:hover {
+    background-color: #103732;
+    color: white;
+
+}
+
+.selector {
+    display: flex;
+    margin-right: 1vw;
+}
+
+.name, label {
     padding: 0.6rem;
     font-weight: bold;
 }
