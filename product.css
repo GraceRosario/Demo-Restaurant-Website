@@ -21,106 +21,15 @@ html, body {
 }
 
 
-header {
-    /* background-color: white; */
-    height: 40%;
-    width: auto;
-    display: flex;
-    align-items: center;
-    background: linear-gradient(135deg, #35c8b4, #edf7be, #a4cf4a);
-}
-
 /* #c2f2e4 */
 /* #35c8b4 */
 /* #edf7be */
 /* #a4cf4a */
 
-nav {
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    gap: 8vw;
-}
-
-.menu {
-    /* color: #96db05; */
-    color: #718f30;
-    /* color: #317067; */
-    font-size: 3rem;
-}
-
-#menu {
-    padding: 15%;
-    width: 10%;
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
-.restaurant-name {
-    /* color: #02c7ac; */
-    color: #317067;
-    font-family: "Intel One Mono", monospace;
-    font-display: swap;
-    font-size: 4rem;
-}
-
-a {
-    text-decoration: none;
-}
-
-.active {
-  font-weight: bold;
-}
-
-.dropdown-text {
-    font-family: "cormorant garamond", "playfair display", "libre baskerville", sans-serif;
-    color: #103732;
-    padding: 0.5rem;
-    z-index: 1;
-}
-
-a .div {
-    z-index: 1;
-}
-
-.dropdown {
-    height: auto;
-    max-height: 20vh;
-    /* width: 25%; */
-    width: 20%;
-}
-
-#dropdown-section {
-    height: auto;
-    width: 20vw;
-    background: linear-gradient(135deg, #35c8b4, #edf7be, #a4cf4a);
-    /* background: linear-gradient(135deg, #a4cf4a, #edf7be, #35c8b4); */
-    font-size: 1.5rem;
-    margin-left: 2vw;
-    margin-top: -2vh;
-    position: absolute;
-    z-index: 10;
-    border-radius: 1rem;
-    padding-left: 1rem;
-    display: none;
-}
-
-.main-hr {
-    background-color: #a5e0fe;
-    border: none;
-    height: 2px;
-}
-
-.menu-hr {
-    border: none;
-    height: 2px;
-    /* background-color: #abdaf2f7; */
-    background-color: #103732;
-    margin-bottom: 1rem;
-    padding-left: 0;
-} 
 
 .main-container {
     width: 80%;
@@ -132,12 +41,13 @@ a .div {
     background: linear-gradient(135deg, #35c8b4, #edf7be, #a4cf4a);
     /* border: 0.5rem solid #fcd0cf; */
     border-radius: 5%;
+    padding: 4rem;
 }
 
 
 .img-container {
-    width: 70%;
-    height: 70%;
+    width: 70vw;
+    height: 70vh;
 }
 
 img, video {
@@ -274,60 +184,28 @@ footer {
 
 @media (max-width: 540.99px) {
     
-    header {
-        width: 100%;
-        height: 30%;
-        /* background-color: black; */
-        box-sizing: border-box;
-    }
-
-    nav {
-        gap: 0rem;
-    }
-
-    .restaurant-name {
-        font-size: 1.5rem;
-    }
-
-    #dropdown-section {
-        height: auto;
-        width: 50vw;
-    }
-
-    .dropdown-text {
-        font-size: 1rem;
-    }
-
-    .menu {
-        font-size: 1.5rem;
-    }
-
-    #dropdown-section {
-        margin-top: 0.2vh;
-    }
-
     .main-container {
-        width: 100%;
-        height: 80vh;
-        border: 0.3rem solid #fcd0cf;
+        width: 85vw;
+        /* height: 90vh; */
+        height: auto;
+        padding: 1rem;
     }
 
-    .name, .price {
+    .name, .price, label, select {
         font-size: 1.4rem;
     }
 
-    .name {
+    .name, .label {
         padding: 1rem;
     }
 
     .buy-btn {
         font-size: 1.4rem;
-        border: 0.3rem solid #422101;
     }
 
     .img-container {
-        width: 70%;
-        height: 60%;
+        width: 70vw;
+        height: 40vh;
     }
 
     main {
@@ -347,32 +225,13 @@ footer {
 
 @media (min-width: 541px) and (max-width: 767.99px) {
 
-    header {
-        width: 100%;
-        height: 30%;
-        /* background-color: black; */
-        box-sizing: border-box;
-    }
-
-    nav {
-        gap: 0rem;
-    }
-
-    .restaurant-name {
-        font-size: 2.5rem;
-    }
-
-    #dropdown-section {
-        margin-top: 0.2vh;
-    }
-
     .main-container {
         width: 100%;
         height: 140vh;
-        border: 0.3rem solid #fcd0cf;
+        padding: 2rem;
     }
 
-    .name, .price {
+    .name, .price, label, select {
         font-size: 1.4rem;
     }
 
@@ -382,12 +241,12 @@ footer {
 
     .buy-btn {
         font-size: 1.4rem;
-        border: 0.3rem solid #422101;
     }
 
     .img-container {
-        width: 70%;
-        height: 80%;
+        width: 70vw;
+        height: 70vh;
+        margin: 0;
     }
 
     main {
@@ -408,62 +267,14 @@ footer {
 
 @media (min-width: 768px) and (max-width: 1024.99px) {
 
-    header {
-        width: 100%;
-        /* background-color: red; */
-    }
-
-    nav {
-        gap: 8vw;
-    }
-
-    .menu {
-        font-size: 3rem;
-        margin-top: 10%;
-    }
-
-    .restaurant-name {
-        font-size: 2.5rem;
-    }
-
-    .dropdown-text {
-        font-size: 1.5rem;
-    }
-
-
-    .about-us, .item-text {
-        font-size: 2rem;
-    }
-
-    .about-heading, .heading {
-        font-size: 3rem;
-    }
-
-    .restaurant-name {
-        font-size: 2.5rem;
-    }
     
-
-    .item-text {
-        font-size: 3rem;
-    }
-
-
-    .dropdown-text {
-        font-size: 1.5rem;
-    }
-
-    hr {
-        margin-bottom: 0.8rem;
-    }
-
     .main-container {
         width: 100%;
         height: 170vh;
-        border: 0.3rem solid #fcd0cf;
+        padding: 2rem;
     }
 
-    .name, .price {
+    .name, .price, label, select {
         font-size: 2.5rem;
     }
 
@@ -474,12 +285,12 @@ footer {
 
     .buy-btn {
         font-size: 2.5rem;
-        border: 0.3rem solid #422101;
     }
 
     .img-container {
-        width: 70%;
-        height: 70%;
+        width: 80vw;
+        height: 100vh;
+        margin: 0;
     }
 
     main {
@@ -487,7 +298,7 @@ footer {
     }
 
     .buttons {
-        gap: 70vw;
+        gap: 80vw;
         top: 90vh;
     }
 
@@ -498,17 +309,6 @@ footer {
 
 @media (min-width: 1025px) and (max-width: 1200.99px) {
 
-    header {
-        width: 100%;
-        /* background-color: green; */
-    }
-
-    .menu {
-        font-size: 4rem;
-        margin-top: 10%;
-    }
-    
-    
     .item-text {
         font-size: 3.5rem;
     }
@@ -516,10 +316,10 @@ footer {
     .main-container {
         width: 100%;
         height: 170vh;
-        border: 0.3rem solid #fcd0cf;
+        margin: 2.5rem;
     }
 
-    .name, .price {
+    .name, .price, label, select {
         font-size: 2.5rem;
     }
 
@@ -529,13 +329,12 @@ footer {
 
 
     .buy-btn {
-        font-size: 2.5rem;
-        border: 0.3rem solid #422101;
+        font-size: 2.5rem
     }
 
     .img-container {
-        width: 70%;
-        height: 70%;
+        width: 70vw;
+        height: 100vh;
     }
 
     main {
