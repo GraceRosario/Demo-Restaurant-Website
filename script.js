@@ -13,6 +13,8 @@ function toggleMenu() {
 
     function orderNow() {
       const basePrice = document.getElementById("price").innerText;
+      basePrice = basePrice.replace(/[^0-9.]/g, ""); // removes ₹
+      basePrice = parseFloat(basePrice); // makes it a number (120)
       const quantity = parseFloat(document.getElementById('quantity').value);
       const totalPrice = quantity * basePrice;
       const dishName = document.getElementById("name").innerText;
