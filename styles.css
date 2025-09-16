@@ -298,6 +298,76 @@ footer {
     top: 295vh;
 }
 
+/* About Page */
+
+.about-heading {
+    font-family: "Intel One Mono", monospace;
+    font-display: swap;
+    font-size: 4.5rem;
+    color: #103732;
+    padding: 10rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 3rem;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.about-us {
+    font-family: "Intel One Mono", monospace;
+    font-display: swap;
+    font-size: 3rem;
+    color: #103732;
+    padding: 6rem;
+}
+
+.indent {
+    text-indent: 5rem;
+    text-align: justify;
+}
+
+/* Contact Page */
+
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.contact-heading {
+    font-family: "Intel One Mono", monospace;
+    font-display: swap;
+    font-size: 3rem;
+    color: #103732;
+    padding: 3rem 3rem 3rem 5rem;
+    text-decoration: underline;
+}
+
+.contact-info {
+    font-family: "Intel One Mono", monospace;
+    font-display: swap;
+    font-size: 3rem;
+    color: #103732;
+    padding: 3rem 3rem 3rem 5rem;
+}
+
+a {
+    color: #103732;
+}
+
+a:visited {
+    color: #103732;
+}
+
+.map {
+    border: 2px solid #103732;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
 @media (max-width: 519.99px) {
 
     header {
@@ -341,7 +411,7 @@ footer {
         font-size: 1rem;
     }
 
-    .about-us {
+    .about-us, .contact-heading, .contact-info {
         font-size: 1.5rem;
         padding: 2rem;
     }
@@ -439,7 +509,7 @@ footer {
         font-size: 2rem;
     }
 
-    .about-us {
+    .about-us, .contact-heading, .contact-info {
         font-size: 1.5rem;
         padding: 2rem;
     }
@@ -534,7 +604,7 @@ footer {
         gap: 5vw;
     }
 
-     #dropdown-section {
+    #dropdown-section {
         height: auto;
         width: 50vw;
     }
@@ -551,10 +621,6 @@ footer {
         margin-top: 0.2vh;
     }
 
-    .about-us, .item-text {
-        font-size: 2rem;
-    }
-
     .about-heading, .heading {
         font-size: 3rem;
     }
@@ -567,9 +633,8 @@ footer {
         font-size: 2rem;
     }
 
-    .about-us {
+    .about-us, .contact-heading, .contact-info {
         font-size: 1.5rem;
-        padding: 2rem;
     }
 
     .veg-div {
@@ -591,7 +656,7 @@ footer {
         padding: 1rem;
     }
     
-    .about-us {
+    .about-us, .contact-heading, .contact-info {
         padding: 4rem;
     }
 
@@ -662,7 +727,7 @@ footer {
         font-size: 2rem;
     }
 
-    .about-us {
+    .about-us, .contact-heading, .contact-info {
         font-size: 1.5rem;
         padding: 2rem;
     }
@@ -687,7 +752,7 @@ footer {
     }
 
 
-    .about-us, .item-text {
+    .about-us, .item-text, .contact-heading, .contact-info {
         font-size: 3rem;
     }
 
@@ -695,7 +760,7 @@ footer {
         font-size: 4.5rem;
     }
 
-    .about-us {
+    .about-us, .contact-heading, .contact-info {
         padding: 4rem;
     }
 
