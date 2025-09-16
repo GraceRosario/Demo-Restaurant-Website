@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <title>Butter Naan</title>
+    <title>Chicken Biryani</title>
 </head>
 <body>
         <header>
@@ -33,12 +33,12 @@
                 </a>
                 
                 <hr class="menu-hr">
-                <a href="Veg.html" class="dropdown-text active">
+                <a href="Veg.html" class="dropdown-text">
                     <div class="menu-text">Veg</div>
                 </a>
 
                 <hr class="menu-hr">
-                <a href="Non-Veg.html" class="dropdown-text">
+                <a href="Non-Veg.html" class="dropdown-text active">
                     <div class="menu-text">Non-Veg</div>
                 </a>
                 </div>
@@ -51,30 +51,38 @@
         
         <div class="img-container slider">
           <div class="slides" id="slides">
-              <img src="Butter Naan.webp" alt="First">
+              <img src="Brownie.webp" alt="First">
+              <img src="Chocolate Brownie 2.webp" alt="Second">
          </div>
         </div>
 
-            <p class="name" id="name">Butter Naan</p>
-            <p class="price" id="price">₹10</p>
+        <div class="buttons">
+            <button onclick="showSlide(0)" class="right"><i class="fa-solid fa-chevron-left"></i></button>
+            <button onclick="showSlide(1)" class="left"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+
+        <script>
+         function showSlide(index) {
+         document.getElementById("slides").style.transform =
+         "translateX(" + (-index * 100) + "%)";
+        }
+        </script>
+
+            <p class="name" id="name">Brownie</p>
+            <p class="price" id="price">₹110</p>
               
             <div class="selector">
             <label for="quantity">Choose Quantity:</label>
                   <select id="quantity">
-                    <option value="1">1 Piece</option>
-                    <option value="2">2 Pieces</option>
-                    <option value="3">3 Pieces</option>
-                    <option value="4">4 Pieces</option>
-                    <option value="5">5 Pieces</option>
-                    <option value="6">6 Pieces</option>
-                    <option value="7">7 Pieces</option>
-                    <option value="8">8 Pieces</option>
-                    <option value="9">9 Pieces</option>
-                    <option value="10">10 Pieces</option>
+                    <option value="0.5" >Half</option>
+                    <option value="1">1 Full</option>
+                    <option value="2">2 Full</option>
+                    <option value="3">3 Full</option>
+                    <option value="4">4 Full</option>
                   </select>
             </div>
 
-        <input type="button" class="buy-btn" value="Buy" onclick="orderPieces()">
+        <input type="button" class="buy-btn" value="Buy" onclick="orderNow()">
 
     </div>
     </main>
