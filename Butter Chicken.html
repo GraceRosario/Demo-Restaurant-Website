@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Handmade crochet pieces - crafted with love to add charm to your life. Discover unique keychains, pouches, bags, and more.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Butter Chicken</title>
+</head>
+<body>
+        <header>
+            <nav>
+             <!-- drop down menu -->
+            <div class="dropdown">
+            <section id="menu" onclick="toggleMenu()"><i class="fa-solid fa-bars menu"></i>
+            </section>
+            <div id="dropdown-section" class="dropdown-content">
+                <a href="index.html" class="dropdown-text">
+                    <div class="menu-text">Home</div>
+                </a>
+
+                <hr class="menu-hr">
+                <a href="About Us.html" class="dropdown-text">
+                    <div class="menu-text">About Us</div>
+                </a>
+                
+                <hr class="menu-hr">
+                <a href="Contact.html" class="dropdown-text">
+                    <div class="menu-text">Contact</div>
+                </a>
+                
+                <hr class="menu-hr">
+                <a href="Veg.html" class="dropdown-text">
+                    <div class="menu-text">Veg</div>
+                </a>
+
+                <hr class="menu-hr">
+                <a href="Non-Veg.html" class="dropdown-text active">
+                    <div class="menu-text">Non-Veg</div>
+                </a>
+                </div>
+            </div>
+        <h1 class="restaurant-name"><i class="fa-solid fa-utensils logo"></i> Spice & Sizzle</h1>
+        </nav>
+        </header>
+            <main>
+    <div class="main-container">
+        
+        <div class="img-container slider">
+          <div class="slides" id="slides">
+              <img src="Butter Chicken 2.webp" alt="First">
+              <img src="Butter Chicken.webp" alt="Second">
+         </div>
+        </div>
+
+        <div class="buttons">
+            <button onclick="showSlide(0)" class="right"><i class="fa-solid fa-chevron-left"></i></button>
+            <button onclick="showSlide(1)" class="left"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+
+        <script>
+         function showSlide(index) {
+         document.getElementById("slides").style.transform =
+         "translateX(" + (-index * 100) + "%)";
+        }
+        </script>
+
+            <p class="name" id="name">Butter Chicken</p>
+            <p class="price" id="price">₹130</p>
+              
+            <div class="selector">
+            <label for="quantity">Choose Quantity:</label>
+                  <select id="quantity">
+                    <option value="0.5" >Half</option>
+                    <option value="1">1 Full</option>
+                    <option value="2">2 Full</option>
+                    <option value="3">3 Full</option>
+                    <option value="4">4 Full</option>
+                  </select>
+            </div>
+
+        <input type="button" class="buy-btn" value="Buy" onclick="orderNow()">
+
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
