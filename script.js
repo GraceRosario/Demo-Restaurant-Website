@@ -25,7 +25,7 @@ function toggleMenu() {
           quantity === 3 ? "3 full" : 
           quantity === 4 ? "4 full" : "";
 
-      const msg = `Hi, I want to order ${dishName}.\nQuantity: ${qty}\nDelivery Address: (enter address here)\nPayment: (COD/UPI)\nContact number: (optional)\n${quantityText} product(s).\nTotal price: ₹${quantity * basePrice}.`;
+      const msg = `Hi, I want to order ${dishName}.\nQuantity: ${qty}\nDelivery Address: (enter address here)\nPayment: (COD/UPI)\nContact number: (optional)\n${quantityText} product(s).\nTotal price: ₹${totalPrice}.`;
       
       const url = `https://wa.me/${phone}?text=${encodeURIComponent(msg)}`;
       window.open(url, "_blank");
